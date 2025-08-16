@@ -1,0 +1,5 @@
+python-dotenv
+firebase-admin
+Adafruit_DHT
+Adafruit_BMP
+requests

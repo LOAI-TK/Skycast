@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--===CSS===-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/Logo.ico">
+    <!--===BoxIcons CSS===-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <title>SkyCast</title>
+</head>
+
+<body >
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+
+                <span class="image">
+                    <img src="logo.png" alt="logo" />
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">SkyCast</span>
+                    <span class="profession">Weather Service</span>
+                </div>
+
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <form id="main-form">
+                        <input type="text" id="main-search"  placeholder="Search..." >
+                    </form>    
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link active">
+                        <a href="#home">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#Dashboard">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#MaR">
+                            <i class='bx bx-map-alt icon'></i>
+                            <span class="text nav-text">Maps and Rader</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#News">
+                            <i class='bx bxs-news icon'></i>
+                            <span class="text nav-text">News</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#About">
+                            <i class='bx bxs-group icon'></i>
+                            <span class="text nav-text">About</span>
+                        </a>
+                    </li>
+                    <li class="slide"></li>
+                </ul>
+            </div>
+            <div class="button-content">
+                <li class="nav-link">
+                    <a href="https://amy39392000.wixsite.com/skycast">
+                        <i class='bx bxs-log-out-circle icon'></i>
+                        <span class="text nav-text">Log Out</span>
+                    </a>
+                </li>
+                <li class="mode"> 
+                    <div class="moon-sun">
+                        <i class="bx bx-moon icon moon"></i>
+                        <i class="bx bx-sun icon sun"></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch">
+
+                        </span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <div class="main-content"></div>
+    <section id="home">
+        <div class="text">Home</div>
+        <iframe id="my-iframe-1" src="/Dashboard/WeatherForcastApp/WeatherForcastApp.html" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="Dashboard">
+        <div class="text">Dashboard</div>
+       
+            <div class='tableauPlaceholder' id='viz1688043464230' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gr&#47;grad_16880330207550&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='grad_16880330207550&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gr&#47;grad_16880330207550&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688043464230');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+       
+    </section>
+
+    <section id="MaR">
+        <div class="text">Maps and Rader</div>
+    </section>
+
+    <section id="News">
+        <div class="text">News</div>
+        <iframe id="my-iframe-2" src="/Dashboard/weather Articles/Weather Articles.html" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="About">
+        <div class="text">About</div>
+        <iframe id="my-iframe-3" src="/Dashboard/About/About.html" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
