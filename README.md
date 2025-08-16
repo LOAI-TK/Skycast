@@ -63,9 +63,9 @@ Please keep in mind that it may not be updated to reflect the latest changes, te
 
 ---
 
-🌐 Website & Web Apps
+# Website & Web Apps
 
-# Skycast includes a website and web applications that:
+## Skycast includes a website and web applications that:
 
 - Display real-time local sensor readings using Tableau.
 
@@ -77,7 +77,7 @@ Please keep in mind that it may not be updated to reflect the latest changes, te
   
 ---
 
-# screenshots
+## Website Screenshots
 
 - Home Page
 <p align="center">
@@ -114,7 +114,7 @@ Please keep in mind that it may not be updated to reflect the latest changes, te
 
 ---
 
-📊 Dashboard
+# Dashboard
 
 An interactive dashboard (Power BI) and Tableau is used to:
 
@@ -136,17 +136,17 @@ An interactive dashboard (Power BI) and Tableau is used to:
 
 # Installation & Setup
 
-1. Clone the Repository
+## Clone the Repository
 
 git clone https://github.com/LOAI-TK/Skycast.git
 
 cd skycast
 
-2. Install Dependencies
+## Install Dependencies
 
 pip install -r requirements.txt
 
-3. Configure Environment Variables
+## Configure Environment Variables
 
 Create a .env file in the root directory:
 
@@ -160,17 +160,17 @@ WEATHER_API_KEY=your_weatherapi_key
 
 ---
 
-## 🏗 System Design  
+# 🏗 System Design  
 
-### Use Case Diagram  
+## Use Case Diagram  
 ![Case Diagram](https://github.com/user-attachments/assets/60e2c134-4f3e-4c55-a8ef-63cf15bc44a9)
 
-### Flowchart
+## Flowchart
 
-#### RPI
+### RPI
 ![RPI Flowchart](https://github.com/user-attachments/assets/4a1d5519-3f1d-45e0-b5df-de840ee48f83)
 
-#### Preprocessing
+### Preprocessing
 ![Data Prep Flowchart](https://github.com/user-attachments/assets/daafb660-3c01-40ea-8bf9-d63b84418745)
 
   
